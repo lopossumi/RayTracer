@@ -8,6 +8,7 @@ namespace RayTracer
     public class RandomUtil
     {
         private Random random;
+        
         public RandomUtil()
         {
             random = new Random();

@@ -41,9 +41,9 @@ namespace RayTracer
         {
             var timer = new Stopwatch();
             timer.Start();
-            var width = 1000;
-            var height = 500;
-            var samples = 100;
+            var width = 2000;
+            var height = 1000;
+            var samples = 32;
 
             var world = new Scene(new List<IHittable>
             {
